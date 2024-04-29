@@ -1,0 +1,189 @@
+Hyperparameters: {'max_depth': 5, 'max_features': 'log2', 'min_impurity_decrease': 0.001, 'min_samples_leaf': 10, 'min_samples_split': 10, 'n_estimators': 100}
+~~~~~~~~~~
+
+Model using all features (includes MR, right-time, and user features):
+Fold metrics (meet, chat, reject): (0.475, 0.3381578947368421, 0.475, 0.3245614035087719, 0.475, 0.475, 0.3666666666666667, 0.330952380952381, 0.47500000000000003, 0.2698412698412698)
+Fold metrics (accept, reject): (0.525, 0.5016129032258064, 0.525, 0.49641577060931896, 0.525, 0.525, 0.49747474747474746, 0.48616352201257856, 0.525, 0.4689028651292802)
+Fold metrics (meet, chat, reject): (0.55, 0.4722222222222222, 0.55, 0.40740740740740744, 0.55, 0.55, 0.3696969696969697, 0.4562334217506631, 0.55, 0.33244916003536695)
+Fold metrics (accept, reject): (0.475, 0.5188311688311689, 0.475, 0.512987012987013, 0.475, 0.475, 0.5075757575757576, 0.41643002028397563, 0.47500000000000003, 0.43204868154158216)
+Fold metrics (meet, chat, reject): (0.4, 0.1789473684210526, 0.4, 0.14035087719298245, 0.4, 0.4, 0.3137254901960784, 0.24727272727272726, 0.4000000000000001, 0.19393939393939394)
+Fold metrics (accept, reject): (0.575, 0.55390625, 0.575, 0.546875, 0.575, 0.575, 0.530690537084399, 0.5332727272727272, 0.575, 0.5054545454545454)
+Fold metrics (meet, chat, reject): (0.38461538461538464, 0.43994601889338736, 0.38461538461538464, 0.456140350877193, 0.38461538461538464, 0.38461538461538464, 0.3611111111111111, 0.2406311637080868, 0.38461538461538464, 0.23076923076923075)
+Fold metrics (accept, reject): (0.6410256410256411, 0.6137303556658394, 0.6410256410256411, 0.5887096774193548, 0.6410256410256411, 0.6410256410256411, 0.5628571428571428, 0.6113053613053613, 0.6410256410256411, 0.5568181818181819)
+Fold metrics (meet, chat, reject): (0.41025641025641024, 0.1835357624831309, 0.41025641025641024, 0.14035087719298245, 0.41025641025641024, 0.41025641025641024, 0.3137254901960784, 0.2536130536130536, 0.41025641025641024, 0.19393939393939394)
+Fold metrics (accept, reject): (0.6666666666666666, 0.674712643678161, 0.6666666666666666, 0.6775862068965517, 0.6666666666666666, 0.6666666666666666, 0.6377005347593583, 0.6463326071169209, 0.6666666666666666, 0.6318082788671024)
+
+~~~~~~~~~~
+AVERAGE [MEET, CHAT, REJECT] METRICS (MR + right-time + user)
+~~~~~~~~~~
+Avg metrics: (0.4439743589743589, 0.32256185335132703, 0.4439743589743589, 0.29376218323586745, 0.4439743589743589, 0.4439743589743589, 0.3449851455733809, 0.3057405494593824, 0.443974358974359, 0.24418768970493104)
+Avg accuracy: 0.4439743589743589
+Avg precision (weighted): 0.32256185335132703
+Avg precision (micro): 0.4439743589743589
+Avg precision (macro): 0.29376218323586745
+Avg recall (weighted): 0.4439743589743589
+Avg recall (micro): 0.4439743589743589
+Avg recall (macro): 0.3449851455733809
+Avg F1 (weighted): 0.3057405494593824
+Avg F1 (micro): 0.443974358974359
+Avg F1 (macro): 0.24418768970493104
+
+best_meet_chat_reject_mr_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-125836390987.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_20240424-130036894699.joblib']
+
+~~~~~~~~~~
+AVERAGE [ACCEPT, REJECT] METRICS (MR + right-time + user)
+~~~~~~~~~~
+Avg metrics: (0.5765384615384616, 0.5725586642801952, 0.5765384615384616, 0.5645147335824476, 0.5765384615384616, 0.5765384615384616, 0.547259743950281, 0.5387008475983127, 0.5765384615384616, 0.5190065105621384)
+Avg accuracy: 0.5765384615384616
+Avg precision (weighted): 0.5725586642801952
+Avg precision (micro): 0.5765384615384616
+Avg precision (macro): 0.5645147335824476
+Avg recall (weighted): 0.5765384615384616
+Avg recall (micro): 0.5765384615384616
+Avg recall (macro): 0.547259743950281
+Avg F1 (weighted): 0.5387008475983127
+Avg F1 (micro): 0.5765384615384616
+Avg F1 (macro): 0.5190065105621384
+
+best_accept_reject_mr_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-124047718433.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-124047718433.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-124047718433.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-125520035946.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_20240424-124047718433.joblib']
+~~~~~~~~~~
+
+Model which excludes MR features but includes right-time-features and user features:
+Fold metrics (meet, chat, reject): (0.475, 0.3375, 0.475, 0.32407407407407407, 0.475, 0.475, 0.3814814814814815, 0.3547619047619048, 0.47500000000000003, 0.30511463844797176)
+Fold metrics (accept, reject): (0.5, 0.47333333333333333, 0.5, 0.4666666666666667, 0.5, 0.5, 0.47474747474747475, 0.467032967032967, 0.5, 0.4505494505494505)
+Fold metrics (meet, chat, reject): (0.6, 0.5966666666666667, 0.6, 0.5888888888888889, 0.6, 0.6, 0.4265151515151515, 0.5221862348178137, 0.6, 0.4148448043184885)
+Fold metrics (accept, reject): (0.475, 0.5734234234234235, 0.475, 0.5630630630630631, 0.475, 0.475, 0.5176767676767676, 0.36618181818181816, 0.47500000000000003, 0.3890909090909091)
+Fold metrics (meet, chat, reject): (0.5, 0.5006944444444444, 0.5, 0.40740740740740744, 0.5, 0.5, 0.3958333333333333, 0.39264150943396225, 0.5, 0.31383647798742137)
+Fold metrics (accept, reject): (0.65, 0.6694805194805195, 0.65, 0.6753246753246753, 0.65, 0.65, 0.6035805626598465, 0.6083333333333334, 0.65, 0.5833333333333334)
+Fold metrics (meet, chat, reject): (0.38461538461538464, 0.2896742896742897, 0.38461538461538464, 0.2927927927927928, 0.38461538461538464, 0.38461538461538464, 0.3611111111111111, 0.24104000574588808, 0.38461538461538464, 0.23062558356676002)
+Fold metrics (accept, reject): (0.6666666666666666, 0.6481481481481481, 0.6666666666666666, 0.6277777777777778, 0.6666666666666666, 0.6666666666666666, 0.5985714285714285, 0.6455862977602107, 0.6666666666666666, 0.5992094861660079)
+Fold metrics (meet, chat, reject): (0.41025641025641024, 0.25854700854700857, 0.41025641025641024, 0.25, 0.41025641025641024, 0.41025641025641024, 0.3311546840958606, 0.28519593613933236, 0.41025641025641024, 0.2442348008385744)
+Fold metrics (accept, reject): (0.6410256410256411, 0.6639194139194139, 0.6410256410256411, 0.6696428571428572, 0.6410256410256411, 0.6410256410256411, 0.6016042780748663, 0.5994776828110161, 0.6410256410256411, 0.5787037037037036)
+
+~~~~~~~~~~
+AVERAGE [MEET, CHAT, REJECT] METRICS (non-MR, w/ right-time + user)
+~~~~~~~~~~
+Avg metrics: (0.47397435897435897, 0.39661648186648185, 0.47397435897435897, 0.37263263263263263, 0.47397435897435897, 0.47397435897435897, 0.3792191523073876, 0.35916511817978025, 0.47397435897435897, 0.3017312610318432)
+Avg accuracy: 0.47397435897435897
+Avg precision (weighted): 0.39661648186648185
+Avg precision (micro): 0.47397435897435897
+Avg precision (macro): 0.37263263263263263
+Avg recall (weighted): 0.47397435897435897
+Avg recall (micro): 0.47397435897435897
+Avg recall (macro): 0.3792191523073876
+Avg F1 (weighted): 0.35916511817978025
+Avg F1 (micro): 0.47397435897435897
+Avg F1 (macro): 0.3017312610318432
+
+best_meet_chat_reject_non_mr_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_non_mr_20240424-124721265460.joblib']
+
+~~~~~~~~~~
+AVERAGE [ACCEPT, REJECT] METRICS (non-MR, w/ right-time + user)
+~~~~~~~~~~
+Avg metrics: (0.5865384615384615, 0.6056609676609676, 0.5865384615384615, 0.600495007995008, 0.5865384615384615, 0.5865384615384615, 0.5592361023460768, 0.537322419823869, 0.5865384615384615, 0.5201773765686809)
+Avg accuracy: 0.5865384615384615
+Avg precision (weighted): 0.6056609676609676
+Avg precision (micro): 0.5865384615384615
+Avg precision (macro): 0.600495007995008
+Avg recall (weighted): 0.5865384615384615
+Avg recall (micro): 0.5865384615384615
+Avg recall (macro): 0.5592361023460768
+Avg F1 (weighted): 0.537322419823869
+Avg F1 (micro): 0.5865384615384615
+Avg F1 (macro): 0.5201773765686809
+
+best_accept_reject_non_mr_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_non_mr_20240424-124130044290.joblib']
+~~~~~~~~~~
+
+Model which excludes right-time features but includes MR and user features:
+Fold metrics (meet, chat, reject): (0.475, 0.3022522522522523, 0.475, 0.2732732732732733, 0.475, 0.475, 0.3666666666666667, 0.33300699300699305, 0.47500000000000003, 0.2694638694638695)
+Fold metrics (accept, reject): (0.575, 0.5738095238095238, 0.575, 0.5735930735930737, 0.575, 0.575, 0.5429292929292929, 0.524, 0.575, 0.5054545454545455)
+Fold metrics (meet, chat, reject): (0.55, 0.5083333333333334, 0.55, 0.4696969696969697, 0.55, 0.55, 0.39621212121212124, 0.4877922077922078, 0.55, 0.3861471861471862)
+Fold metrics (accept, reject): (0.475, 0.5357142857142857, 0.475, 0.5285714285714286, 0.475, 0.475, 0.5126262626262625, 0.39392033542976934, 0.47500000000000003, 0.4129979035639413)
+Fold metrics (meet, chat, reject): (0.45, 0.24166666666666664, 0.45, 0.2222222222222222, 0.45, 0.45, 0.38095238095238093, 0.3102564102564102, 0.45, 0.2735042735042735)
+Fold metrics (accept, reject): (0.6, 0.5885304659498208, 0.6, 0.5842293906810037, 0.6, 0.6, 0.5601023017902813, 0.5680911680911681, 0.6, 0.5441595441595442)
+Fold metrics (meet, chat, reject): (0.38461538461538464, 0.24216524216524218, 0.38461538461538464, 0.24074074074074073, 0.38461538461538464, 0.38461538461538464, 0.3611111111111111, 0.2420512820512821, 0.38461538461538464, 0.23111111111111113)
+Fold metrics (accept, reject): (0.6666666666666666, 0.6536796536796537, 0.6666666666666666, 0.6298701298701299, 0.6666666666666666, 0.6666666666666666, 0.6142857142857143, 0.6561006289308177, 0.6666666666666666, 0.6173584905660378)
+Fold metrics (meet, chat, reject): (0.41025641025641024, 0.1835357624831309, 0.41025641025641024, 0.14035087719298245, 0.41025641025641024, 0.41025641025641024, 0.3137254901960784, 0.2536130536130536, 0.41025641025641024, 0.19393939393939394)
+Fold metrics (accept, reject): (0.5897435897435898, 0.5850427350427351, 0.5897435897435898, 0.5791666666666666, 0.5897435897435898, 0.5897435897435898, 0.5762032085561497, 0.5858416945373468, 0.5897435897435898, 0.5760869565217391)
+
+~~~~~~~~~~
+AVERAGE [MEET, CHAT, REJECT] METRICS (MR + user)
+~~~~~~~~~~
+Avg metrics: (0.45397435897435895, 0.2955906513801251, 0.45397435897435895, 0.2692568166252377, 0.45397435897435895, 0.45397435897435895, 0.3637335540276717, 0.3253439893439894, 0.45397435897435895, 0.2708331668331668)
+Avg accuracy: 0.45397435897435895
+Avg precision (weighted): 0.2955906513801251
+Avg precision (micro): 0.45397435897435895
+Avg precision (macro): 0.2692568166252377
+Avg recall (weighted): 0.45397435897435895
+Avg recall (micro): 0.45397435897435895
+Avg recall (macro): 0.3637335540276717
+Avg F1 (weighted): 0.3253439893439894
+Avg F1 (micro): 0.45397435897435895
+Avg F1 (macro): 0.2708331668331668
+
+best_meet_chat_reject_mr_user_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-130236420894.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-130236420894.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_mr_user_20240424-124849453900.joblib']
+
+~~~~~~~~~~
+AVERAGE [ACCEPT, REJECT] METRICS (MR + user)
+~~~~~~~~~~
+Avg metrics: (0.5812820512820512, 0.5873553328392039, 0.5812820512820512, 0.5790861378764605, 0.5812820512820512, 0.5812820512820512, 0.5612293560375401, 0.5455907653978203, 0.5812820512820512, 0.5312114880531615)
+Avg accuracy: 0.5812820512820512
+Avg precision (weighted): 0.5873553328392039
+Avg precision (micro): 0.5812820512820512
+Avg precision (macro): 0.5790861378764605
+Avg recall (weighted): 0.5812820512820512
+Avg recall (micro): 0.5812820512820512
+Avg recall (macro): 0.5612293560375401
+Avg F1 (weighted): 0.5455907653978203
+Avg F1 (micro): 0.5812820512820512
+Avg F1 (macro): 0.5312114880531615
+
+best_accept_reject_mr_user_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-125043107849.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124207154020.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124246818195.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124246818195.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124130044290.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_mr_user_20240424-124246818195.joblib']
+~~~~~~~~~~
+
+Model which only includes user features:
+Fold metrics (meet, chat, reject): (0.5, 0.35, 0.5, 0.3333333333333333, 0.5, 0.5, 0.4148148148148148, 0.38798076923076924, 0.5, 0.3429487179487179)
+Fold metrics (accept, reject): (0.6, 0.6078125, 0.6, 0.609375, 0.6, 0.6, 0.5707070707070707, 0.5601139601139601, 0.6, 0.5441595441595442)
+Fold metrics (meet, chat, reject): (0.55, 0.4392857142857142, 0.55, 0.35714285714285715, 0.55, 0.55, 0.3696969696969697, 0.45739348370927313, 0.55, 0.32915622389306604)
+Fold metrics (accept, reject): (0.475, 0.7576923076923077, 0.475, 0.7307692307692308, 0.475, 0.475, 0.5227272727272727, 0.3320366132723112, 0.47500000000000003, 0.35926773455377575)
+Fold metrics (meet, chat, reject): (0.5, 0.5952702702702702, 0.5, 0.48648648648648646, 0.5, 0.5, 0.3958333333333333, 0.3939083820662768, 0.5, 0.31513970110461337)
+Fold metrics (accept, reject): (0.625, 0.625, 0.625, 0.625, 0.625, 0.625, 0.5818414322250639, 0.5881818181818181, 0.625, 0.5636363636363637)
+Fold metrics (meet, chat, reject): (0.358974358974359, 0.13225371120107962, 0.358974358974359, 0.12280701754385964, 0.358974358974359, 0.358974358974359, 0.3333333333333333, 0.1932938856015779, 0.358974358974359, 0.1794871794871795)
+Fold metrics (accept, reject): (0.6410256410256411, 0.6215738284703802, 0.6410256410256411, 0.5948275862068966, 0.6410256410256411, 0.6410256410256411, 0.5785714285714286, 0.6244064577397911, 0.6410256410256411, 0.5787037037037037)
+Fold metrics (meet, chat, reject): (0.41025641025641024, 0.1835357624831309, 0.41025641025641024, 0.14035087719298245, 0.41025641025641024, 0.41025641025641024, 0.3137254901960784, 0.2536130536130536, 0.41025641025641024, 0.19393939393939394)
+Fold metrics (accept, reject): (0.6153846153846154, 0.6182336182336182, 0.6153846153846154, 0.6111111111111112, 0.6153846153846154, 0.6153846153846154, 0.6122994652406417, 0.6164068489649884, 0.6153846153846154, 0.6112956810631229)
+
+~~~~~~~~~~
+AVERAGE [MEET, CHAT, REJECT] METRICS (user)
+~~~~~~~~~~
+Avg metrics: (0.4638461538461539, 0.340069091648039, 0.4638461538461539, 0.28802411433990377, 0.4638461538461539, 0.4638461538461539, 0.36548078827490593, 0.3372379148441901, 0.4638461538461539, 0.2721342432745941)
+Avg accuracy: 0.4638461538461539
+Avg precision (weighted): 0.340069091648039
+Avg precision (micro): 0.4638461538461539
+Avg precision (macro): 0.28802411433990377
+Avg recall (weighted): 0.4638461538461539
+Avg recall (micro): 0.4638461538461539
+Avg recall (macro): 0.36548078827490593
+Avg F1 (weighted): 0.3372379148441901
+Avg F1 (micro): 0.4638461538461539
+Avg F1 (macro): 0.2721342432745941
+
+best_meet_chat_reject_user_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-124849453900.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\meet_chat_reject_user_20240424-125558442948.joblib']
+
+~~~~~~~~~~
+AVERAGE [ACCEPT, REJECT] METRICS (user)
+~~~~~~~~~~
+Avg metrics: (0.5912820512820514, 0.6460624508792613, 0.5912820512820514, 0.6342165856174478, 0.5912820512820514, 0.5912820512820514, 0.5732293338942955, 0.5442291396545739, 0.5912820512820514, 0.531412605423302)
+Avg accuracy: 0.5912820512820514
+Avg precision (weighted): 0.6460624508792613
+Avg precision (micro): 0.5912820512820514
+Avg precision (macro): 0.6342165856174478
+Avg recall (weighted): 0.5912820512820514
+Avg recall (micro): 0.5912820512820514
+Avg recall (macro): 0.5732293338942955
+Avg F1 (weighted): 0.5442291396545739
+Avg F1 (micro): 0.5912820512820514
+Avg F1 (macro): 0.531412605423302
+
+best_accept_reject_user_files: ['C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-130450018275.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-130450018275.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-130450018275.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib', 'C:\\Users\\rarora9\\Documents\\coms_6156\\final\\saved_models\\accept_reject_user_20240424-124223847116.joblib']
